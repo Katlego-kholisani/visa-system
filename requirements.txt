@@ -1,0 +1,22 @@
+# Core
+Django>4.2,<=5.2.1
+djangorestframework>=3.14
+django-filter>=23.1
+
+# Authentication Stuff
+djangorestframework-simplejwt>=5.3.0
+
+# API Docs for swagger,
+drf-yasg>=1.21
+
+# File handling and media support
+Pillow>=10.0
+
+# PostgreSQL (I will definitely be using this DB!)
+psycopg2-binary>=2.9
+
+# Optional: For Environment variable support
+python-dotenv>=1.0
+
+# Optional: In-case ke batla CORS for frontend integration
+django-cors-headers>=4.0
