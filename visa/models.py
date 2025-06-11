@@ -64,6 +64,8 @@ class VisaApplication(models.Model):
     )
 
     VISA_TYPES = (
+        ('tourist', 'Tourist'),
+        ('student', 'Student'),
         ('work', 'Work'),
         ('residence', 'Residence'),
     )
